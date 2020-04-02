@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=500, initial-scale=1.0">
+    <title>JavaScript 02</title>
+</head>
+
+<body>
+    <script>
+        //AND, OR, NOT, Boolean
+
+        var sexo = 'M', idade = 33;
+
+        //Os dois tem que ser verdadeiros
+        if (sexo === 'M' && idade >= 18) {
+            console.log('ok')
+        } else {
+            console.log('No')
+        }
+        //Pelo um dos dois tem que ser verdadeiros
+        if (sexo === 'F' || idade >= 18) {
+            console.log('ok')
+        } else {
+            console.log('No')
+        }
+        //Pelo menos um tem que ser diferente
+        if (sexo != 'M' && idade >= 18) {
+            console.log('ok')
+        } else {
+            console.log('No')
+        }
+        //Valor Boolean
+        //Se colocar M, vai ser true
+        //Se colocar F, vai ser false
+        if (sexo === 'f') {
+            masculino = true;
+        } else {
+            masculino = false
+        }
+        console.log(masculino)
+    </script>
+
+</body>
+
+</html>
